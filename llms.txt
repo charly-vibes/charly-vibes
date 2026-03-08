@@ -1,0 +1,21 @@
+# Charly Vibes — Manifiesto
+
+> Campo de pruebas para el desarrollo asistido por LLM. Todo el código fue generado por modelos de lenguaje; la intervención humana está en los requisitos, las decisiones de diseño, la planificación y la revisión.
+
+Charly Vibes es una zona de desastre controlada. Un intento de registrar qué forma toma este oficio cuando la máquina escribe y el humano decide.
+
+## Proyectos
+
+- [microdancing](https://charly-vibes.github.io/microdancing/llms.txt): Blog de microposts y crónicas de lo mínimo. Hogar del manifiesto del Resonant Coding.
+- [nayra](https://charly-vibes.github.io/nayra/llms.txt): Visualización de líneas de tiempo para el tiempo profundo. 10.000+ eventos a 60 FPS.
+- [jams](https://charly-vibes.github.io/jams/llms.txt): Pequeñas aplicaciones, fuegos de un día, sin frameworks ni ceremonias.
+- [fabbro](https://charly-vibes.github.io/fabbro/llms.txt): Herramienta CLI para revisar y anotar código generado por LLMs. Local-first, sin servidores.
+- [wai](https://charly-vibes.github.io/wai/llms.txt): Gestor de flujos de trabajo para desarrollo asistido por IA.
+- [fotos](https://charly-vibes.github.io/fotos/llms.txt): Captura de pantalla con OCR, detección de PII y servidor MCP para agentes.
+- [incitaciones](https://charly-vibes.github.io/incitaciones/llms.txt): Colección de prompts reutilizables y skills para herramientas CLI de LLMs.
+- [rizomas](https://charly-vibes.github.io/rizomas/llms.txt): Ensayos interactivos rizomáticos sobre cómo funcionan los LLMs.
+- [bichos](https://github.com/charly-vibes/bichos): Framework bio-mimético para QA autónomo con enjambres de agentes. En etapa de propuesta.
+
+## Autoría
+
+Todo el código en esta organización fue generado por un modelo de lenguaje de gran escala. El LLM escribe. El humano sabe qué debe decir.
