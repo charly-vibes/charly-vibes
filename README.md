@@ -23,3 +23,15 @@ El objetivo, si es que hay uno, es descular qué forma tomará este oficio. Hay 
 ---
 
 Todo es parte de la misma pesquisa. Un diario de abordo en la era de la máquina que sueña. O de la máquina que nos hace soñar que estamos creando algo nuevo. Da igual. El viaje es lo único que cuenta.
+
+---
+
+## Nota sobre la autoría del código
+
+Todo el código en este repositorio fue generado por un modelo de lenguaje de gran escala. Esto no es una confesión ni una disculpa. Es un dato, como el que dice que el agua hierve a cien grados a nivel del mar: neutro, técnico, y con consecuencias que uno descubre después.
+
+Lo que hizo el humano es lo que suele hacerse antes y después de que sucedan las cosas: pensar. Revisar los requisitos, discutir los casos borde, entender qué se quiere construir y por qué, decidir cómo debería comportarse el sistema cuando la realidad —que es caprichosa y no lee documentación— lo enfrenta con situaciones imprevistas. Las horas de planificación, de diseño, de leer especificaciones hasta que el cansancio disuelve la frontera entre la comprensión y la alucinación.
+
+El LLM escribe. El humano sabe qué debe decir.
+
+Hay una distinción, aunque al mirar el historial de *commits* cueste encontrarla. La distinción está en que una máquina puede producir código correcto sin entender nada, del mismo modo que una calculadora puede resolver una integral sin saber qué es el tiempo. Entender para qué sirve eso, si realmente resuelve el problema, si el problema era el problema correcto: eso sigue siendo territorio humano. Por ahora.
