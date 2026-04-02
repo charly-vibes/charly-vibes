@@ -14,6 +14,7 @@ Charly Vibes es una zona de desastre controlada. Un intento de registrar qué fo
 - [fotos](https://charly-vibes.github.io/fotos/llms.txt): Captura de pantalla con OCR, detección de PII y servidor MCP para agentes.
 - [incitaciones](https://charly-vibes.github.io/incitaciones/llms.txt): Colección de prompts reutilizables y skills para herramientas CLI de LLMs.
 - [rizomas](https://charly-vibes.github.io/rizomas/llms.txt): Ensayos interactivos rizomáticos sobre cómo funcionan los LLMs.
+- [canticos](https://charly-vibes.github.io/canticos/): Scripts de uso personal: conversión de video para proyector, transcripción con whisper, dashboard de Claude Code.
 - [bichos](https://github.com/charly-vibes/bichos): Framework bio-mimético para QA autónomo con enjambres de agentes. En etapa de propuesta.
 
 ## Autoría
