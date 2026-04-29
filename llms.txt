@@ -16,6 +16,11 @@ Charly Vibes es una zona de desastre controlada. Un intento de registrar qué fo
 - [rizomas](https://charly-vibes.github.io/rizomas/llms.txt): Ensayos interactivos rizomáticos sobre cómo funcionan los LLMs.
 - [canticos](https://charly-vibes.github.io/canticos/): Scripts de uso personal: conversión de video para proyector, transcripción con whisper, dashboard de Claude Code.
 - [bichos](https://github.com/charly-vibes/bichos): Framework bio-mimético para QA autónomo con enjambres de agentes. En etapa de propuesta.
+- [atril](https://charly-vibes.github.io/atril/): Visores web para el ecosistema wai. Lectura cómoda de specs e issues.
+- [dont](https://charly-vibes.github.io/dont/): CLI en etapa de especificación para obligar a agentes a fundamentar sus afirmaciones.
+- [paranoid](https://charly-vibes.github.io/paranoid/): App Android que aloja muchas apps pequeñas como Activities nativas en Kotlin.
+- [ruta](https://github.com/charly-vibes/ruta): Paquete para pi orientado a una semana de inmersión disciplinada en especificaciones.
+- [khipu](https://github.com/charly-vibes/khipu): Forensia de trazas de agentes y cristalización de flujos de trabajo.
 
 ## Autoría
 

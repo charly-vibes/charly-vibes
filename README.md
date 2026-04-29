@@ -20,6 +20,11 @@ El objetivo, si es que hay uno, es descular qué forma tomará este oficio. Hay 
 *   **[incitaciones](https://charly-vibes.github.io/incitaciones/)** · [repo](https://github.com/charly-vibes/incitaciones): Colección de prompts reutilizables y buenas prácticas para herramientas CLI de LLMs. Se distribuyen como skills para Claude Code, Amp, Gemini CLI, Cursor, Windsurf y Zed. Recetas destiladas del delirio cotidiano.
 *   **[canticos](https://charly-vibes.github.io/canticos/)** · [repo](https://github.com/charly-vibes/canticos): Cánticos, invocaciones, escrituras. Scripts de uso personal: conversión de video para proyector, transcripción con whisper, dashboard de uso de Claude Code. Herramientas pequeñas y afiladas.
 *   **[rizomas](https://charly-vibes.github.io/rizomas/)** · [repo](https://github.com/charly-vibes/rizomas): Explicaciones rizomáticas. Un experimento en gestación, una raíz que busca tierra donde crecer. Todavía no se sabe qué forma va a tomar, y eso está bien.
+*   **[atril](https://charly-vibes.github.io/atril/)** · [repo](https://github.com/charly-vibes/atril): Atril para el ecosistema wai. Visores web para leer specs e issues sin fricción, con foco en exploración cómoda desde tablet o navegador.
+*   **[dont](https://charly-vibes.github.io/dont/)** · [repo](https://github.com/charly-vibes/dont): CLI en etapa de especificación para obligar a agentes autónomos a fundamentar sus afirmaciones antes de hacerlas. Primero el grounding, después el verbo.
+*   **[paranoid](https://charly-vibes.github.io/paranoid/)** · [repo](https://github.com/charly-vibes/paranoid): Una app Android que aloja muchas apps pequeñas. Cada mini-app vive como una Activity nativa en Kotlin, con dependencias mínimas y bajo consumo de recursos.
+*   **[ruta](https://github.com/charly-vibes/ruta)** · [repo](https://github.com/charly-vibes/ruta): Un paquete para pi que lo vuelve un arnés opinado para una semana de inmersión en especificaciones. Disciplina para no perderse en el entusiasmo de la máquina.
+*   **[khipu](https://github.com/charly-vibes/khipu)** · [repo](https://github.com/charly-vibes/khipu): Forensia de trazas de agentes y cristalización de flujos de trabajo. Una herramienta para desenredar hilos y encontrar patrones en el ruido.
 
 ---
 
