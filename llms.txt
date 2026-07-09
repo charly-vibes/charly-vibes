@@ -18,10 +18,11 @@ Charly Vibes es una zona de desastre controlada. Un intento de registrar qué fo
 - [bichos](https://github.com/charly-vibes/bichos): Framework bio-mimético para QA autónomo con enjambres de agentes.
 - [atril](https://charly-vibes.github.io/atril/): Visores web para el ecosistema wai. Lectura cómoda de specs e issues.
 - [dont](https://charly-vibes.github.io/dont/): CLI para obligar a agentes a fundamentar sus afirmaciones. Primero el grounding, después el verbo.
+- [espectacular](https://github.com/charly-vibes/espectacular): Capa de verificación de comportamiento para el ecosistema de desarrollo IA de charly.
+- [testaruda](https://github.com/charly-vibes/testaruda): Motor de selección de tests con semiring de procedencia. Dado un cambio de código, computa los tests afectados.
 - [paranoid](https://charly-vibes.github.io/paranoid/): App Android que aloja muchas apps pequeñas como Activities nativas en Kotlin.
 - [ruta](https://github.com/charly-vibes/ruta): Paquete para pi orientado a una semana de inmersión disciplinada en especificaciones.
 - [khipu](https://github.com/charly-vibes/khipu): Forensia de trazas de agentes y cristalización de flujos de trabajo.
-- [espectacular](https://github.com/charly-vibes/espectacular): Capa de verificación de comportamiento para el ecosistema de desarrollo IA de charly.
 - [miblioteca](https://github.com/charly-vibes/miblioteca): PWA en TypeScript para catalogar libros a partir de fotos de sus lomos.
 - [superficies](https://github.com/charly-vibes/superficies): Catálogo de diseño para explorar dimensiones ortogonales de diseño web.
 - [tRAGar](https://github.com/charly-vibes/tRAGar): RAG del lado del cliente en el navegador con transformers.js.
