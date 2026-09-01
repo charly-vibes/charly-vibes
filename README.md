@@ -6,13 +6,13 @@ Esto, entonces, no es una persona. "Charly Vibes" es más bien un campo de prueb
 
 Cada línea aquí es producto de ese diálogo febril, una conversación con un oráculo que cobra por palabra. El trabajo ya no se mide en horas-silla, sino en tokens quemados, en un contador que avanza como un taxímetro hacia la bancarrota existencial. Uno paga por pensar, o por hacer que algo piense por uno. La diferencia es cada vez más borrosa. Mientras haya plata para los tokens, se sigue trabajando. Cuando se acabe, habrá que ver qué otro delirio inventamos.
 
-El objetivo, si es que hay uno, es descular qué forma tomará este oficio. Hay una obsesión por la planificación, por revisar las respuestas de la máquina como quien lee las entrañas de un pollo de silicio. Las exploraciones:
+El objetivo, si es que hay uno, es descular qué forma tomará este oficio. Hay una obsesión por la planificación, por revisar las respuestas de la máquina como quien lee las entrañas de un pollo de silicio.
 
-## Mapa
+## Las exploraciones
 
 ### El ecosistema
 
-Los CLIs y la infraestructura compartida que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el código. Casi todos en Rust, más un orfebre en Go.
+Los CLIs y la infraestructura compartida que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el código. Casi todos en Rust, más un orfebre en Go. Varios siguen en etapa de especificación, y así se dice en cada ficha.
 
 *   **[wai](https://charly-vibes.github.io/wai/)** · [repo](https://github.com/charly-vibes/wai): Gestor de flujos de trabajo para desarrollo asistido por IA. Organiza los artefactos de un proyecto —investigación, planes, diseños— capturando el *por qué* detrás de cada decisión. El cuaderno de bitácora que la máquina necesita para no perderse.
 *   **[fabbro](https://charly-vibes.github.io/fabbro/)** · [repo](https://github.com/charly-vibes/fabbro): Una herramienta de orfebre digital. Un martillo y cincel para la línea de comandos, para revisar y comentar lo que nos vomitan los modelos de lenguaje. Anotaciones estructuradas sobre código, local-first, sin servidores.
@@ -67,10 +67,12 @@ Experimentos sin plan maestro. Fuegos de un día, prototipos y juguetes que quiz
 
 ### Distribución
 
-Repositorios de paquetes para instalar las herramientas sin pelear con el toolchain: el tap de Homebrew y el bucket de Scoop.
+Repositorios de paquetes para instalar las herramientas sin pelear con el toolchain: el tap de Homebrew y el bucket de Scoop. La CLI dulce-de-leche (`ddl`), listada en el ecosistema, automatiza lo que estos repos exponen.
 
 *   **[homebrew-charly](https://github.com/charly-vibes/homebrew-charly)** · [repo](https://github.com/charly-vibes/homebrew-charly): Tap de Homebrew para las herramientas de charly-vibes. Un `brew tap` y a trabajar.
 *   **[scoop-charly](https://github.com/charly-vibes/scoop-charly)** · [repo](https://github.com/charly-vibes/scoop-charly): Bucket de Scoop para las herramientas de charly-vibes. Instalación directa en Windows.
+
+*Los repos meta —`charly-vibes` y `charly-vibes.github.io`— no se listan: su trabajo es describir al resto.*
 
 ---
 

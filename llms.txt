@@ -8,7 +8,7 @@ Charly Vibes es una zona de desastre controlada. Un intento de registrar qué fo
 
 ### El ecosistema
 
-Los CLIs y la infraestructura compartida que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el código. Casi todos en Rust, más un orfebre en Go.
+Los CLIs y la infraestructura compartida que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el código. Casi todos en Rust, más un orfebre en Go. Varios siguen en etapa de especificación.
 
 - [wai](https://charly-vibes.github.io/wai/): Gestor de flujos de trabajo para desarrollo asistido por IA.
 - [fabbro](https://charly-vibes.github.io/fabbro/): Herramienta CLI para revisar y anotar código generado por LLMs. Local-first, sin servidores.
@@ -63,7 +63,7 @@ Experimentos sin plan maestro: aplicaciones web, mobile y desktop, y algunos bic
 
 ### Distribución
 
-Repositorios de paquetes para instalar las herramientas: el tap de Homebrew y el bucket de Scoop.
+Repositorios de paquetes para instalar las herramientas: el tap de Homebrew y el bucket de Scoop. La CLI dulce-de-leche (ddl) automatiza lo que estos repos exponen.
 
 - [homebrew-charly](https://github.com/charly-vibes/homebrew-charly): Tap de Homebrew para las herramientas de charly-vibes.
 - [scoop-charly](https://github.com/charly-vibes/scoop-charly): Bucket de Scoop para las herramientas de charly-vibes.
