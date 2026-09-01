@@ -12,19 +12,14 @@ El objetivo, si es que hay uno, es descular qué forma tomará este oficio. Hay 
 
 ### El ecosistema
 
-Un rompecabezas de herramientas que se arman entre sí: capturar el contexto, verificar el comportamiento, seleccionar los tests, auditar el rastro. Cada pieza resuelve una grieta distinta del desarrollo asistido por IA.
+Los CLIs que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el código. Casi todos en Rust, más un orfebre en Go.
 
 *   **[wai](https://charly-vibes.github.io/wai/)** · [repo](https://github.com/charly-vibes/wai): Gestor de flujos de trabajo para desarrollo asistido por IA. Organiza los artefactos de un proyecto —investigación, planes, diseños— capturando el *por qué* detrás de cada decisión. El cuaderno de bitácora que la máquina necesita para no perderse.
-*   **[atril](https://charly-vibes.github.io/atril/)** · [repo](https://github.com/charly-vibes/atril): Atril para el ecosistema wai. Visores web para leer specs e issues sin fricción, con foco en exploración cómoda desde tablet o navegador.
-*   **[ruta](https://github.com/charly-vibes/ruta)** · [repo](https://github.com/charly-vibes/ruta): Un paquete para pi que lo vuelve un arnés opinado para una semana de inmersión en especificaciones. Disciplina para no perderse en el entusiasmo de la máquina.
 *   **[fabbro](https://charly-vibes.github.io/fabbro/)** · [repo](https://github.com/charly-vibes/fabbro): Una herramienta de orfebre digital. Un martillo y cincel para la línea de comandos, para revisar y comentar lo que nos vomitan los modelos de lenguaje. Anotaciones estructuradas sobre código, local-first, sin servidores.
-*   **[fotos](https://charly-vibes.github.io/fotos/)** · [repo](https://github.com/charly-vibes/fotos): Captura de pantalla con inteligencia artificial. Anotaciones visuales, análisis OCR, detección de PII y un servidor MCP para integración con agentes de código. El ojo que le faltaba al flujo de trabajo.
 *   **[dont](https://charly-vibes.github.io/dont/)** · [repo](https://github.com/charly-vibes/dont): CLI para obligar a agentes autónomos a fundamentar sus afirmaciones antes de hacerlas. Primero el grounding, después el verbo.
 *   **[espectacular](https://github.com/charly-vibes/espectacular)** · [repo](https://github.com/charly-vibes/espectacular): Capa de verificación de comportamiento para el ecosistema de desarrollo IA de charly. Una herramienta para asegurar que los agentes se mantengan dentro de los límites esperados.
 *   **[testaruda](https://github.com/charly-vibes/testaruda)** · [repo](https://github.com/charly-vibes/testaruda): Motor de selección de tests con semiring de procedencia. Dado un cambio de código, computa el conjunto de tests afectados mediante análisis incremental de dependencias.
 *   **[pretender](https://github.com/charly-vibes/pretender)** · [repo](https://github.com/charly-vibes/pretender): Herramienta de análisis de código basada en tree-sitter que genera reportes SARIF. Una pieza más del rompecabezas de calidad de código asistida.
-*   **[bichos](https://github.com/charly-vibes/bichos)** · [repo](https://github.com/charly-vibes/bichos): Framework bio-mimético para control de calidad autónomo. Enjambres de agentes especializados —hormigas, abejas, termitas, avispas— que coordinan por estigmergía para detectar bugs, analizar arquitectura y auditar seguridad.
-*   **[khipu](https://github.com/charly-vibes/khipu)** · [repo](https://github.com/charly-vibes/khipu): Forensia de trazas de agentes y cristalización de flujos de trabajo. Una herramienta para desenredar hilos y encontrar patrones en el ruido.
 
 ### La palabra
 
@@ -39,12 +34,37 @@ Lo que se escribe mientras se construye: la bitácora, el método, la receta y e
 
 Experimentos sin plan maestro. Fuegos de un día, prototipos y juguetes que quizás algún día encuentren su lugar. O no, y también está bien.
 
+
+
+#### Aplicaciones web
+
+*   **[atril](https://charly-vibes.github.io/atril/)** · [repo](https://github.com/charly-vibes/atril): Atril para el ecosistema wai. Visores web para leer specs e issues sin fricción, con foco en exploración cómoda desde tablet o navegador.
 *   **[jams](https://charly-vibes.github.io/jams/)** · [repo](https://github.com/charly-vibes/jams): Pequeñas aplicaciones, fuegos de un día, para entender herramientas y modos de hacer directos, casi brutales. Cada app es una página, sin frameworks, sin ceremonias.
 *   **[nayra](https://charly-vibes.github.io/nayra/)** · [repo](https://github.com/charly-vibes/nayra): Visualización de líneas de tiempo para el tiempo profundo. 10.000+ eventos a 60 FPS, desde microsegundos hasta miles de millones de años. Un intento de domesticar el caos con desarrollo guiado por especificaciones. Una jaula de oro para la creatividad.
 *   **[superficies](https://github.com/charly-vibes/superficies)** · [repo](https://github.com/charly-vibes/superficies): Catálogo de diseño para explorar dimensiones ortogonales de diseño web mediante vistas previas en vivo y exportación de informes deterministas.
 *   **[tRAGar](https://charly-vibes.github.io/tRAGar/)** · [repo](https://github.com/charly-vibes/tRAGar): Generación aumentada por recuperación (RAG) del lado del cliente en el navegador. Embeddings con transformers.js sin servidor.
 *   **[miblioteca](https://charly-vibes.github.io/miblioteca/)** · [repo](https://github.com/charly-vibes/miblioteca): Captura de lomos de bibliotecas. Una PWA en TypeScript para catalogar libros a partir de fotos de sus lomos.
+
+#### Mobile
+
 *   **[paranoid](https://charly-vibes.github.io/paranoid/)** · [repo](https://github.com/charly-vibes/paranoid): Una app Android que aloja muchas apps pequeñas. Cada mini-app vive como una Activity nativa en Kotlin, con dependencias mínimas y bajo consumo de recursos.
+
+#### Desktop
+
+*   **[fotos](https://charly-vibes.github.io/fotos/)** · [repo](https://github.com/charly-vibes/fotos): Captura de pantalla con inteligencia artificial. Anotaciones visuales, análisis OCR, detección de PII y un servidor MCP para integración con agentes de código. El ojo que le faltaba al flujo de trabajo.
+
+#### Otros experimentos
+
+*   **[bichos](https://github.com/charly-vibes/bichos)** · [repo](https://github.com/charly-vibes/bichos): Framework bio-mimético para control de calidad autónomo. Enjambres de agentes especializados —hormigas, abejas, termitas, avispas— que coordinan por estigmergía para detectar bugs, analizar arquitectura y auditar seguridad.
+*   **[khipu](https://github.com/charly-vibes/khipu)** · [repo](https://github.com/charly-vibes/khipu): Forensia de trazas de agentes y cristalización de flujos de trabajo. Una herramienta para desenredar hilos y encontrar patrones en el ruido.
+*   **[ruta](https://github.com/charly-vibes/ruta)** · [repo](https://github.com/charly-vibes/ruta): Un paquete para pi que lo vuelve un arnés opinado para una semana de inmersión en especificaciones. Disciplina para no perderse en el entusiasmo de la máquina.
+
+### Distribución
+
+Repositorios de paquetes para instalar las herramientas sin pelear con el toolchain: el tap de Homebrew y el bucket de Scoop.
+
+*   **[homebrew-charly](https://github.com/charly-vibes/homebrew-charly)** · [repo](https://github.com/charly-vibes/homebrew-charly): Tap de Homebrew para las herramientas de charly-vibes. Un `brew tap` y a trabajar.
+*   **[scoop-charly](https://github.com/charly-vibes/scoop-charly)** · [repo](https://github.com/charly-vibes/scoop-charly): Bucket de Scoop para las herramientas de charly-vibes. Instalación directa en Windows.
 
 ---
 
