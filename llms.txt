@@ -8,7 +8,7 @@ Charly Vibes es una zona de desastre controlada. Un intento de registrar qué fo
 
 ### El ecosistema
 
-Los CLIs que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el código. Casi todos en Rust, más un orfebre en Go.
+Los CLIs y la infraestructura compartida que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el código. Casi todos en Rust, más un orfebre en Go.
 
 - [wai](https://charly-vibes.github.io/wai/): Gestor de flujos de trabajo para desarrollo asistido por IA.
 - [fabbro](https://charly-vibes.github.io/fabbro/): Herramienta CLI para revisar y anotar código generado por LLMs. Local-first, sin servidores.
@@ -16,6 +16,11 @@ Los CLIs que sostienen todo: capturar el contexto, verificar el comportamiento, 
 - [espectacular](https://github.com/charly-vibes/espectacular): Capa de verificación de comportamiento para el ecosistema de desarrollo IA de charly.
 - [testaruda](https://github.com/charly-vibes/testaruda): Motor de selección de tests con semiring de procedencia. Dado un cambio de código, computa los tests afectados.
 - [pretender](https://github.com/charly-vibes/pretender): Análisis de código basado en tree-sitter que genera reportes SARIF.
+- [vampiro](https://github.com/charly-vibes/vampiro): CLI en Rust que verifica si el código compone correctamente a través de límites de llamada, módulo, efecto, ley, retry, recurso y confianza. En cada borde: ¿este edge compone válidamente en la categoría que dice componer?
+- [crua](https://github.com/charly-vibes/crua): CLI en Rust, en etapa de especificación, que verifica si el código respeta el modelo de costo del hardware y runtime donde se ejecuta: layout de cache lines, estabilidad de tipos, modelos de concurrencia, contención de locks.
+- [livin](https://github.com/charly-vibes/livin): CLI en Rust, en etapa de especificación, que comprueba si una suite de tests realmente ejercita los valores borde que la forma del propio código implica: cero, vacío, singleton, duplicado, overflow, cada rama de un sum type.
+- [genesis](https://charly-vibes.github.io/genesis/): Crate de Rust compartida con la infraestructura transversal del suite: sobres de JSON, CLI, self-healing. El fundamento común que el rompecabezas necesitaba.
+- [dulce-de-leche](https://github.com/charly-vibes/dulce-de-leche): Un comando para instalar, configurar y actualizar todas las herramientas de charly-vibes. El repo queda limpio: todo vive bajo `.ddl/`.
 
 ### La palabra
 
@@ -54,6 +59,7 @@ Experimentos sin plan maestro: aplicaciones web, mobile y desktop, y algunos bic
 - [bichos](https://github.com/charly-vibes/bichos): Framework bio-mimético para QA autónomo con enjambres de agentes.
 - [khipu](https://github.com/charly-vibes/khipu): Forensia de trazas de agentes y cristalización de flujos de trabajo.
 - [ruta](https://github.com/charly-vibes/ruta): Paquete para pi orientado a una semana de inmersión disciplinada en especificaciones.
+- [paseos](https://github.com/charly-vibes/paseos): Repo en gestación: todavía sin forma definida, solo la declaración de autoría y una intención que no se sabe qué va a ser cuando crezca.
 
 ### Distribución
 

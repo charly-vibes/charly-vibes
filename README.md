@@ -12,7 +12,7 @@ El objetivo, si es que hay uno, es descular qué forma tomará este oficio. Hay 
 
 ### El ecosistema
 
-Los CLIs que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el código. Casi todos en Rust, más un orfebre en Go.
+Los CLIs y la infraestructura compartida que sostienen todo: capturar el contexto, verificar el comportamiento, seleccionar los tests, analizar el código. Casi todos en Rust, más un orfebre en Go.
 
 *   **[wai](https://charly-vibes.github.io/wai/)** · [repo](https://github.com/charly-vibes/wai): Gestor de flujos de trabajo para desarrollo asistido por IA. Organiza los artefactos de un proyecto —investigación, planes, diseños— capturando el *por qué* detrás de cada decisión. El cuaderno de bitácora que la máquina necesita para no perderse.
 *   **[fabbro](https://charly-vibes.github.io/fabbro/)** · [repo](https://github.com/charly-vibes/fabbro): Una herramienta de orfebre digital. Un martillo y cincel para la línea de comandos, para revisar y comentar lo que nos vomitan los modelos de lenguaje. Anotaciones estructuradas sobre código, local-first, sin servidores.
@@ -20,6 +20,11 @@ Los CLIs que sostienen todo: capturar el contexto, verificar el comportamiento, 
 *   **[espectacular](https://github.com/charly-vibes/espectacular)** · [repo](https://github.com/charly-vibes/espectacular): Capa de verificación de comportamiento para el ecosistema de desarrollo IA de charly. Una herramienta para asegurar que los agentes se mantengan dentro de los límites esperados.
 *   **[testaruda](https://github.com/charly-vibes/testaruda)** · [repo](https://github.com/charly-vibes/testaruda): Motor de selección de tests con semiring de procedencia. Dado un cambio de código, computa el conjunto de tests afectados mediante análisis incremental de dependencias.
 *   **[pretender](https://github.com/charly-vibes/pretender)** · [repo](https://github.com/charly-vibes/pretender): Herramienta de análisis de código basada en tree-sitter que genera reportes SARIF. Una pieza más del rompecabezas de calidad de código asistida.
+*   **[vampiro](https://github.com/charly-vibes/vampiro)** · [repo](https://github.com/charly-vibes/vampiro): CLI en Rust que verifica si el código compone correctamente a través de límites de llamada, módulo, efecto, ley, retry, recurso y confianza. En cada borde: ¿este edge compone válidamente en la categoría que dice componer?
+*   **[crua](https://github.com/charly-vibes/crua)** · [repo](https://github.com/charly-vibes/crua): CLI en Rust, en etapa de especificación, que verifica si el código respeta el modelo de costo del hardware y runtime donde se ejecuta: layout de cache lines, estabilidad de tipos, modelos de concurrencia, contención de locks.
+*   **[livin](https://github.com/charly-vibes/livin)** · [repo](https://github.com/charly-vibes/livin): CLI en Rust, en etapa de especificación, que comprueba si una suite de tests realmente ejercita los valores borde que la forma del propio código implica: cero, vacío, singleton, duplicado, overflow, cada rama de un sum type.
+*   **[genesis](https://charly-vibes.github.io/genesis/)** · [repo](https://github.com/charly-vibes/genesis): Crate de Rust compartida con la infraestructura transversal del suite: sobres de JSON, CLI, self-healing. El fundamento común que el rompecabezas necesitaba.
+*   **[dulce-de-leche](https://github.com/charly-vibes/dulce-de-leche)** · [repo](https://github.com/charly-vibes/dulce-de-leche): Un comando para instalar, configurar y actualizar todas las herramientas de charly-vibes. El repo queda limpio: todo vive bajo `.ddl/`.
 
 ### La palabra
 
@@ -58,6 +63,7 @@ Experimentos sin plan maestro. Fuegos de un día, prototipos y juguetes que quiz
 *   **[bichos](https://github.com/charly-vibes/bichos)** · [repo](https://github.com/charly-vibes/bichos): Framework bio-mimético para control de calidad autónomo. Enjambres de agentes especializados —hormigas, abejas, termitas, avispas— que coordinan por estigmergía para detectar bugs, analizar arquitectura y auditar seguridad.
 *   **[khipu](https://github.com/charly-vibes/khipu)** · [repo](https://github.com/charly-vibes/khipu): Forensia de trazas de agentes y cristalización de flujos de trabajo. Una herramienta para desenredar hilos y encontrar patrones en el ruido.
 *   **[ruta](https://github.com/charly-vibes/ruta)** · [repo](https://github.com/charly-vibes/ruta): Un paquete para pi que lo vuelve un arnés opinado para una semana de inmersión en especificaciones. Disciplina para no perderse en el entusiasmo de la máquina.
+*   **[paseos](https://github.com/charly-vibes/paseos)** · [repo](https://github.com/charly-vibes/paseos): Repo en gestación: todavía sin forma definida, solo la declaración de autoría y una intención que no se sabe qué va a ser cuando crezca.
 
 ### Distribución
 
