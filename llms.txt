@@ -19,6 +19,8 @@ Los CLIs y la infraestructura compartida que sostienen todo: capturar el context
 - [vampiro](https://github.com/charly-vibes/vampiro): CLI en Rust que verifica si el código compone correctamente a través de límites de llamada, módulo, efecto, ley, retry, recurso y confianza. En cada borde: ¿este edge compone válidamente en la categoría que dice componer?
 - [crua](https://github.com/charly-vibes/crua): CLI en Rust, en etapa de especificación, que verifica si el código respeta el modelo de costo del hardware y runtime donde se ejecuta: layout de cache lines, estabilidad de tipos, modelos de concurrencia, contención de locks.
 - [livin](https://github.com/charly-vibes/livin): CLI en Rust, en etapa de especificación, que comprueba si una suite de tests realmente ejercita los valores borde que la forma del propio código implica: cero, vacío, singleton, duplicado, overflow, cada rama de un sum type.
+- [whisper](https://github.com/charly-vibes/whisper): CLI en Rust que hace determinista el skill `whisper` de incitaciones. La capa mecánica convertida en binario; el comando es `turu`.
+- [fck](https://github.com/charly-vibes/fck): Kit de cuatro skills para agentes de código: diagnóstico sin rodeos cuando la frustración apunta a la máquina.
 - [genesis](https://charly-vibes.github.io/genesis/): Crate de Rust compartida con la infraestructura transversal del suite: sobres de JSON, CLI, self-healing. El fundamento común que el rompecabezas necesitaba.
 - [dulce-de-leche](https://github.com/charly-vibes/dulce-de-leche): Un comando para instalar, configurar y actualizar todas las herramientas de charly-vibes. El repo queda limpio: todo vive bajo `.ddl/`.
 
@@ -59,6 +61,8 @@ Experimentos sin plan maestro: aplicaciones web, mobile y desktop, y algunos bic
 - [bichos](https://github.com/charly-vibes/bichos): Framework bio-mimético para QA autónomo con enjambres de agentes.
 - [khipu](https://github.com/charly-vibes/khipu): Forensia de trazas de agentes y cristalización de flujos de trabajo.
 - [ruta](https://github.com/charly-vibes/ruta): Paquete para pi orientado a una semana de inmersión disciplinada en especificaciones.
+- [michael](https://charly-vibes.github.io/michael/): Tema de color solo en escala de grises para pantallas forzadas a monocromo. El significado viaja por luminosidad, peso y estilo, nunca por tono.
+- [coffee](https://charly-vibes.github.io/coffee/): Tracking de uso y costo de IA con dashboards HTML autocontenidos.
 - [paseos](https://github.com/charly-vibes/paseos): Repo en gestación: todavía sin forma definida, solo la declaración de autoría y una intención que no se sabe qué va a ser cuando crezca.
 
 ### Distribución
