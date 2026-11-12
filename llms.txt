@@ -13,16 +13,23 @@ Los CLIs y la infraestructura compartida que sostienen todo: capturar el context
 - [wai](https://charly-vibes.github.io/wai/): Gestor de flujos de trabajo para desarrollo asistido por IA.
 - [fabbro](https://charly-vibes.github.io/fabbro/): Herramienta CLI para revisar y anotar código generado por LLMs. Local-first, sin servidores.
 - [dont](https://charly-vibes.github.io/dont/): CLI para obligar a agentes a fundamentar sus afirmaciones. Primero el grounding, después el verbo.
-- [espectacular](https://github.com/charly-vibes/espectacular): Capa de verificación de comportamiento para el ecosistema de desarrollo IA de charly.
-- [testaruda](https://github.com/charly-vibes/testaruda): Motor de selección de tests con semiring de procedencia. Dado un cambio de código, computa los tests afectados.
-- [pretender](https://github.com/charly-vibes/pretender): Análisis de código basado en tree-sitter que genera reportes SARIF.
-- [vampiro](https://github.com/charly-vibes/vampiro): CLI en Rust que verifica si el código compone correctamente a través de límites de llamada, módulo, efecto, ley, retry, recurso y confianza. En cada borde: ¿este edge compone válidamente en la categoría que dice componer?
-- [crua](https://github.com/charly-vibes/crua): CLI en Rust, en etapa de especificación, que verifica si el código respeta el modelo de costo del hardware y runtime donde se ejecuta: layout de cache lines, estabilidad de tipos, modelos de concurrencia, contención de locks.
-- [livin](https://github.com/charly-vibes/livin): CLI en Rust, en etapa de especificación, que comprueba si una suite de tests realmente ejercita los valores borde que la forma del propio código implica: cero, vacío, singleton, duplicado, overflow, cada rama de un sum type.
-- [whisper](https://github.com/charly-vibes/whisper): CLI en Rust que hace determinista el skill `whisper` de incitaciones. La capa mecánica convertida en binario; el comando es `turu`.
+- [specodelic](https://charly-vibes.github.io/specodelic/): Formato de especificaciones en Markdown (Intent / Constraints / Model / Properties) y CLI (`spk`) que lo lintea, compila y verifica.
+- [espectacular](https://charly-vibes.github.io/espectacular/): Capa de verificación de comportamiento para el ecosistema de desarrollo IA de charly.
+- [testaruda](https://charly-vibes.github.io/testaruda/): Motor de selección de tests con semiring de procedencia. Dado un cambio de código, computa los tests afectados.
+- [pretender](https://charly-vibes.github.io/pretender/): Análisis de código basado en tree-sitter que genera reportes SARIF.
+- [vampiro](https://charly-vibes.github.io/vampiro/): CLI en Rust que verifica si el código compone correctamente a través de límites de llamada, módulo, efecto, ley, retry, recurso y confianza. En cada borde: ¿este edge compone válidamente en la categoría que dice componer?
+- [wild](https://charly-vibes.github.io/wild/): Compatibilidad y composición de componentes verificadas por máquina, modeladas como una categoría de contratos.
+- [crua](https://charly-vibes.github.io/crua/): CLI en Rust, en etapa de especificación, que verifica si el código respeta el modelo de costo del hardware y runtime donde se ejecuta: layout de cache lines, estabilidad de tipos, modelos de concurrencia, contención de locks.
+- [livin](https://charly-vibes.github.io/livin/): CLI en Rust, en etapa de especificación, que comprueba si una suite de tests realmente ejercita los valores borde que la forma del propio código implica: cero, vacío, singleton, duplicado, overflow, cada rama de un sum type.
+- [sunset](https://github.com/charly-vibes/sunset): Extracción local de documentos: PDF a texto buscable con referencias verificables a la fuente, para cotejar cada pasaje contra la página original.
+- [bajan](https://charly-vibes.github.io/bajan/): Pipeline CLI de grafos de conocimiento guiado por specs: ingesta de fuentes, extracción de claims, consulta del grafo. Triple store en SQLite.
+- [whisper](https://charly-vibes.github.io/whisper/): CLI en Rust que hace determinista el skill `whisper` de incitaciones. La capa mecánica convertida en binario; el comando es `turu`.
 - [fck](https://github.com/charly-vibes/fck): Kit de cuatro skills para agentes de código: diagnóstico sin rodeos cuando la frustración apunta a la máquina.
+- [funkalization](https://charly-vibes.github.io/funkalization/): Espacio de trabajo semántico para diseño de software: propuestas tipeadas, decisiones con guardas, evidencia acotada.
+- [gently](https://charly-vibes.github.io/gently/): Port a Rust del Graph::Easy de Perl: parsea, distribuye y renderiza grafos como ASCII art, boxart, HTML o DOT.
 - [genesis](https://charly-vibes.github.io/genesis/): Crate de Rust compartida con la infraestructura transversal del suite: sobres de JSON, CLI, self-healing. El fundamento común que el rompecabezas necesitaba.
-- [dulce-de-leche](https://github.com/charly-vibes/dulce-de-leche): Un comando para instalar, configurar y actualizar todas las herramientas de charly-vibes. El repo queda limpio: todo vive bajo `.ddl/`.
+- [evallerina](https://github.com/charly-vibes/evallerina): Batería de evaluación para la familia dulce-de-leche: mide si los agentes LLM realmente leen y actúan sobre los canales de salida AIX del suite.
+- [dulce-de-leche](https://charly-vibes.github.io/dulce-de-leche/): Un comando para instalar, configurar y actualizar todas las herramientas de charly-vibes. El repo queda limpio: todo vive bajo `.ddl/`.
 
 ### La palabra
 
@@ -44,8 +51,10 @@ Experimentos sin plan maestro: aplicaciones web, mobile y desktop, y algunos bic
 - [atril](https://charly-vibes.github.io/atril/): Visores web para el ecosistema wai. Lectura cómoda de specs e issues.
 - [jams](https://charly-vibes.github.io/jams/llms.txt): Pequeñas aplicaciones, fuegos de un día, sin frameworks ni ceremonias.
 - [nayra](https://charly-vibes.github.io/nayra/llms.txt): Visualización de líneas de tiempo para el tiempo profundo. 10.000+ eventos a 60 FPS.
-- [superficies](https://github.com/charly-vibes/superficies): Catálogo de diseño para explorar dimensiones ortogonales de diseño web.
+- [superficies](https://charly-vibes.github.io/superficies/): Catálogo de diseño para explorar dimensiones ortogonales de diseño web.
+- [tambor](https://charly-vibes.github.io/tambor/): Librería de UI en TypeScript estricto: la UI es función pura del estado, las combinaciones inválidas fallan en compile time. Port de membrane, con demo en vivo.
 - [tRAGar](https://github.com/charly-vibes/tRAGar): RAG del lado del cliente en el navegador con transformers.js.
+- [wanna](https://charly-vibes.github.io/wanna/): Arnés de conformancia spec-first: el corpus specodelic es la fuente de verdad y cada propiedad está atada a un test de contrato ejecutable.
 - [miblioteca](https://github.com/charly-vibes/miblioteca): PWA en TypeScript para catalogar libros a partir de fotos de sus lomos.
 
 #### Mobile
@@ -67,10 +76,11 @@ Experimentos sin plan maestro: aplicaciones web, mobile y desktop, y algunos bic
 
 ### Distribución
 
-Repositorios de paquetes para instalar las herramientas: el tap de Homebrew y el bucket de Scoop. La CLI dulce-de-leche (ddl) automatiza lo que estos repos exponen.
+Repositorios de paquetes para instalar las herramientas: el tap de Homebrew, el bucket de Scoop y la submission a Flathub. La CLI dulce-de-leche (ddl) automatiza lo que estos repos exponen.
 
 - [homebrew-charly](https://github.com/charly-vibes/homebrew-charly): Tap de Homebrew para las herramientas de charly-vibes.
 - [scoop-charly](https://github.com/charly-vibes/scoop-charly): Bucket de Scoop para las herramientas de charly-vibes.
+- [flathub](https://github.com/charly-vibes/flathub): Fork de flathub/flathub para el tracker de issues y la submission de fotos a Flathub.
 
 ## Autoría
 
